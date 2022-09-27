@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .allnav{
     width: 100%;
     display: flex;
@@ -54,15 +58,33 @@ cursor: pointer;
 }
 /* section2 */
 .part2{
-    background-color: red;
+    background-color: rgb(165, 163, 163);
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    padding: 2px 0;
+    min-height: 20px;
 }
 /* section3 */
 .part3{
     background-color: green;
+    display: flex;
+    height: 40px;
 } 
+
+.part3 ul{
+display: flex;
+gap: 30px;
+list-style: none;
+color: white;
+}
 /* section4 */
 .part4{
     background-color: grey;
+    
+}
+.part4 img{
+    vertical-align: middle;
 }
  /* section5 */
 .part5{
@@ -74,6 +96,7 @@ cursor: pointer;
 }
  /* section7 */
 .part7{
+
     background-color: red;
 }
  /* section8 */
@@ -89,12 +112,12 @@ cursor: pointer;
     background-color: grey;
 }
  /* section11 */
-.part11{
-    background-color: red;
-} 
+
  /* section12 */
  .part12{
-    background-color: green;
+    background-color: #454545;
+    color: white;
+    gap: 50px;
 } 
 .responsiveness{
     display: none;
