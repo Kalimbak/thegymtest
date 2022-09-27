@@ -1,0 +1,63 @@
+.allnav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+}
+.list1 ul{
+    display: flex;
+ list-style: none;
+ gap: 10px;
+margin: 0 0 0 6px;
+padding: 0 0 0 40px;
+}
+.second ul li{
+    border: 1px solid black;
+    padding: 3px 3px;
+}
+
+/* section2 */
+.part2{
+    background-color: red;
+}
+/* section3 */
+.part3{
+    background-color: green;
+} 
+/* section4 */
+.part4{
+    background-color: grey;
+}
+ /* section5 */
+.part5{
+    background-color: blue;
+} 
+/* section6 */
+.part6{
+    background-color: green;
+}
+ /* section7 */
+.part7{
+    background-color: red;
+}
+ /* section8 */
+.part8{
+    background-color: yellow;
+} 
+/* section9 */
+.part9{
+    background-color: royalblue;
+} 
+/* section10 */
+.part10{
+    background-color: grey;
+}
+ /* section11 */
+.part11{
+    background-color: red;
+} 
+ /* section12 */
+ .part12{
+    background-color: green;
+} 
