@@ -1,9 +1,15 @@
 .allnav{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .navbar{
     display: flex;
+    padding: 12px 20px 12px 12px;
+}
+.list1{
+    float: right;
+    margin-left: 100px;
 }
 .list1 ul{
     display: flex;
@@ -11,12 +17,41 @@
  gap: 10px;
 margin: 0 0 0 6px;
 padding: 0 0 0 40px;
+
+
+}
+.second{
+    display: block!important;
+    float: right;
+    left: auto;
+    text-align: left;
+    clear: right;
+    margin-top: 30px;
+    /* font-size: 14px; */
 }
 .second ul li{
     border: 1px solid black;
-    padding: 3px 3px;
+    padding: 4px 30px 4px 10px;
+cursor: pointer;
 }
-
+.second ul li:hover{
+    border: 1.4px solid black;
+    padding: 4px 30px 4px 10px;
+cursor: pointer;
+}
+.second input{
+    border: none;
+}
+.arrow{
+    margin-bottom: 3px;
+    margin-left: 3px;
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 /* section2 */
 .part2{
     background-color: red;
@@ -61,3 +96,25 @@ padding: 0 0 0 40px;
  .part12{
     background-color: green;
 } 
+.responsiveness{
+    display: none;
+    /* justify-content: space-between; */
+    gap: 30px;
+    width: 100%;
+} 
+
+
+
+/* responsiveness */
+@media only screen and (max-width:990px) {
+    .responsiveness{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 30px;
+        width: 100%;
+    } 
+    .allnav{
+        display: none;
+    }
+}
+
